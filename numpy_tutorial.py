@@ -212,3 +212,43 @@ import numpy as np
 # create another list from that which only has the even values
 # random_list[random_list % 2 == 0] = 0
 # print(random_list)
+
+# creating a list
+# random_list = np.linspace(10, 20, 10)
+# print(random_list)
+
+# random_list = np.arange(10, 20, 2)
+# print(random_list)
+
+# a = np.arange(10, 15, 3)
+# b = np.linspace(10, 15, 7)
+
+# print(a, b)
+
+# special function
+arr = np.random.randint(-15, 15, 15).reshape((3, -1))
+print(arr)
+# print(np.sum(arr))
+# print(np.min(arr, axis = 1))
+# print(np.max(arr))
+# print(arr.sum())
+# print(np.sum(arr, axis = 1))
+# for row wise sum, think of what changes. Column is what is changing. So, axis = 1
+# row = 0, column = 1,
+# print(np.cumsum(arr, axis = 1))
+
+# some math functions
+# print(np.sin(arr))
+
+# np.sin
+# np.cos
+# np.pi
+# np.sqrt
+# np.tan
+# np.asin
+# np.acos
+
+# print(np.argmax(arr, axis = 1))
+
+
+
