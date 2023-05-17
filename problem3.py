@@ -44,5 +44,6 @@ while True:
     elif command == "EmployeesEarningLessThan":
         highestSalary = float(input())
         print(employeeNames[salaries < highestSalary])
+        
     else:
         break

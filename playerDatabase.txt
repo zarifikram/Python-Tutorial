@@ -1,0 +1,4 @@
+pirlo,pique,xavi
+40,34,38
+10000.0,100000.0,100000.0
+juventus,barcelona,qatar
